@@ -36,9 +36,8 @@ class DynamicArray {
   }
 
   shift() {
-  
-    // Your code here
 
+    // Your code here 
   }
 
   unshift(val) {
