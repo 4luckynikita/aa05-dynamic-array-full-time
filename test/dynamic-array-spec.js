@@ -96,7 +96,7 @@ describe('Dynamic Array', function () {
 
     dynamicArr.unshift(1);
     expect(dynamicArr.length).to.equal(1);
-    expect(dynamicArr.read(0)).to.equal(1);
+    expect(dynamicArr.read(0)).to.equal(1); 
 
     dynamicArr.unshift(2);
     expect(dynamicArr.length).to.equal(2);
