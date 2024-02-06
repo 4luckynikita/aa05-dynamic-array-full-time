@@ -15,14 +15,24 @@ class DynamicArray {
   }
 
   push(val) {
-
-    // Your code here 
+    // Your code here
+    if (this.length === this.capacity) return undefined;
+    else {
+      this.data[this.length] = val
+      this.length++;
+    }
   }
 
 
   pop() {
-
     // Your code here 
+    if (this.length === 0) return undefined;
+    else {
+      let temp = this.data[this.length - 1]
+      this.data[this.length - 1] = undefined;
+      this.length--
+      return temp
+    }
   }
 
   shift() {
